@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Counter</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <div class="content">
+            <noscript><h1>This website requires JavaScript.</h1></noscript>
+
+            <h1 class="title">counter</h1>
+
+            <hr />
+
+            <div id="counter">
+                <table align="center" class="counter-table">
+                    <tr>
+                        <td><button class="increment-btn" onclick="increment()">+ Increment +</button></td>
+                        <td><h1 id="count" class="count">0</h1></td>
+                        <td><button class="decrement-btn" onclick="decrement()">- Decrement -</button></td>
+                    </tr>
+                    <tr></tr>
+                    <tr>
+                        <td></td>
+                        <td>
+                            <button class="save-btn" onclick="save()">&nbsp;Save&nbsp;</button>
+                            <button class="reset-btn" onclick="reset()">Reset</button>
+                        </td>
+                        <td></td>
+                    </tr>
+                </table>
+            </div>
+
+            <hr />
+            
+            <div id="saved">
+                <h2>Saved Counts</h2>
+                <p><span id="previous-entries"></span></p>
+                <button class="clear-btn" onclick="clearSaved()">Clear</button>
+            </div>
+
+            <hr />
+
+            <div id="footer" class="footer">
+                <h2>About</h2>
+                <p>
+                    I'm a newbie to JavaScript and CSS - this is my first JS project.
+                    This site uses local storage so it saves the count and 'saved counts'
+                    between sessions.
+                </p>
+                <br />
+                <h6>Copyright © 2022 • Lachlan Adamson</h6>
+            </div>
+        </div>
+
+        <script src="js/counter.js"></script>
+    </body>
+</html>

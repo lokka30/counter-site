@@ -1,0 +1,109 @@
+body {
+    background-color: #232323;
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1, h2 {
+    text-shadow: 2px 2px #636363;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0px;
+}
+
+h1 {
+    font-size: 400%;
+}
+
+h2 {
+    font-size: 200%;
+}
+
+h6 {
+    color: darkgray;
+}
+
+.title {
+    font-family: 'Courier New', Courier, monospace;
+    color: skyblue;
+    text-shadow: 2px 2px #535353, 3px 3px;
+}
+
+hr {
+    height: 0.1rem;
+    border: 0px;
+    background-color: slategray;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    width: 50%;
+}
+
+button {
+    background-color: #454545;
+    color: white;
+    border-radius: 0.3rem;
+    border-color: transparent;
+    padding-left: 2%;
+    padding-right: 2%;
+    font-size: 150%;
+    box-shadow: 1px 1px 1px;
+}
+
+button:hover {
+    background-color: #535353;
+    box-shadow: 1px 1px 2px;
+}
+
+button:active {
+    background-color: #636363;
+    box-shadow: 2px 2px 3px;
+}
+
+.increment-btn {
+    color: lightgreen;
+    border-right: 1px solid lightgreen;
+    border-bottom: 1px solid lightgreen;
+    text-align: right;
+
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.decrement-btn {
+    color: lightcoral;
+    border-right: 1px solid lightcoral;
+    border-bottom: 1px solid lightcoral;
+    text-align: left;
+
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.save-btn {
+    color: skyblue;
+    border-right: 1px solid skyblue;
+    border-bottom: 1px solid skyblue;
+}
+
+.reset-btn {
+    color: lightpink;
+    border-right: 1px solid lightpink;
+    border-bottom: 1px solid lightpink;
+}
+
+.clear-btn {
+    color: darkgray;
+    border-right: 1px solid darkgray;
+    border-bottom: 1px solid darkgray;
+}
+
+.counter-table {
+    width: 50%;
+}
+
+.footer p {
+    margin: 0 auto;
+    width: 40%;
+}
